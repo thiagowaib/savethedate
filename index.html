@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save the Date - Ligia Waib 70 anos</title>
+    <link rel="stylesheet" href="/src/styles/main.scss" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="intro">
+        <h1>Save the Date</h1>
+        <p>Aniversário de 70 anos de <strong>Ligia Waib</strong></p>
+        <p>21 de Junho de 2025 às 19h</p>
+        <button id="confirmButton">Confirmar Presença</button>
+      </section>
+
+      <section id="confirmationModal" class="modal hidden">
+        <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <h2>Confirme sua presença</h2>
+          <input type="text" id="nameInput" placeholder="Ex: Thiago Waib e Esposa" />
+          <button id="submitConfirmation">Enviar</button>
+        </div>
+      </section>
+
+      <section class="location">
+        <h2>Local da Festa</h2>
+        <p>Av. Cascata, 500 - Jardim Maria Izabel, Marília - SP</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.6454556839935!2d-49.92206142471007!3d-22.215576279747626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd1bfb73f5aef%3A0x90962ac655c55d05!2sBoulevard%20Park%20Resort!5e0!3m2!1spt-BR!2sbr!4v1747701210842!5m2!1spt-BR!2sbr" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <script type="module" src="/src/scripts/main.ts"></script>
+  </body>
+</html>
